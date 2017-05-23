@@ -1,0 +1,16 @@
+Any python files in this code can be run with the command
+    python filename.py
+where filename is the name of the file you want to compile and run. 
+Several of the programs will ask for input.
+P is the unitless ratio of degeneracies between two levels in the superdegenerate system. 
+T is the temperature of the system in Kelvin.
+No other inputs should be required. 
+Other parameters of the experiments can be changed by modifying the GLOBAL
+"CONSTANTS" section of the python file. These include:
+temperature
+number of levels
+start level
+oscillation frequency
+probability of a particle jumping from the top to bottom level
+number of particles being simulated
+number of steps for which the system is run
